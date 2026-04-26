@@ -14,9 +14,16 @@
 
 ## 📸 截图
 
-| 用户端 | 管理面板 |
-|--------|----------|
-| 用户查看实时状态 + 聊天 | 监控状态 + 回复访客消息 |
+<table>
+  <tr>
+    <td align="center"><b>用户端</b></td>
+    <td align="center"><b>管理面板</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/user.png" alt="用户端" width="400" /></td>
+    <td><img src="screenshots/admin.png" alt="管理面板" width="400" /></td>
+  </tr>
+</table>
 
 ## 架构
 
@@ -135,6 +142,9 @@ what-am-i-doing/
 ├── web/
 │   ├── index.html           # 用户端前端
 │   └── admin.html           # 管理面板前端
+├── screenshots/
+│   ├── user.png             # 用户端截图
+│   └── admin.png            # 管理面板截图
 ├── start.bat                # 一键启动脚本
 ├── stop.bat                 # 一键停止脚本
 └── README.md
