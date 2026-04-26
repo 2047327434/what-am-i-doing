@@ -228,7 +228,7 @@
       <div class="online-dot offline" id="onlineDot"></div>
     </div>
     <div class="status-info">
-      <div class="status-name">Yuhang</div>
+      <div class="status-name">Admin</div>
       <div class="status-app">
         <span id="appIcon">💤</span>
         <span class="app-name" id="appName">离线</span>
@@ -375,7 +375,7 @@ function addMessage(sender, content, timestamp, animate = true) {
   div.className = `msg ${sender}`;
   if (!animate) div.style.animation = 'none';
 
-  const senderLabel = sender === 'admin' ? 'Yuhang' : '访客';
+  const senderLabel = sender === 'admin' ? 'Admin' : '访客';
   div.innerHTML = `
     <div class="msg-sender">${senderLabel}</div>
     <div>${escapeHtml(content)}</div>

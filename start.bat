@@ -1,10 +1,11 @@
 @echo off
 chcp 65001 >nul 2>&1
 
-set PYTHONW=C:\Users\yuhang.liang\.workbuddy\binaries\python\envs\waid\Scripts\pythonw.exe
-set PYTHON=C:\Users\yuhang.liang\.workbuddy\binaries\python\envs\waid\Scripts\python.exe
-set SERVER=c:\Users\yuhang.liang\WorkBuddy\20260426131404\what-am-i-doing\server\main.py
-set CLIENT=c:\Users\yuhang.liang\WorkBuddy\20260426131404\what-am-i-doing\admin\client.py
+set SCRIPT_DIR=%~dp0
+set PYTHON=python
+set PYTHONW=pythonw
+set SERVER=%SCRIPT_DIR%server\main.py
+set CLIENT=%SCRIPT_DIR%admin\client.py
 
 echo [1/2] 启动 Server (端口 8900)...
 start "WAID-Server" /min %PYTHON% %SERVER%
