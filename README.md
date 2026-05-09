@@ -1,11 +1,11 @@
-<p align="center">
+# 🖥️ What Am I Doing
+
+<p>
   <img src="https://img.shields.io/badge/Platform-Windows-blue" alt="Platform">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/FastAPI-0.104+-009688?logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
-
-# 🖥️ What Am I Doing
 
 > **中文文档** | [English](#english)
 
@@ -257,6 +257,13 @@ what-am-i-doing/
 <a id="english"></a>
 
 # 🖥️ What Am I Doing
+
+<p>
+  <img src="https://img.shields.io/badge/Platform-Windows-blue" alt="Platform">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-0.104+-009688?logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+</p>
 
 > **English** | [中文](#)
 
